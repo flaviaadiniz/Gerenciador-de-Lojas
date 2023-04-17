@@ -62,8 +62,8 @@ public class Loja {
     public String toString() {
         return "Loja [" +
                 "Nome: " + nome +
-                "\nQuantidade de Funcionários: " + quantidadeFuncionarios +
-                "\nSalário Base do Funcionario: " + salarioBaseFuncionario +
+                " | Quantidade de Funcionários: " + quantidadeFuncionarios +
+                " | Salário Base do Funcionario: " + salarioBaseFuncionario +
                 ']';
     }
 }
