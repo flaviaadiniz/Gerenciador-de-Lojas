@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd40494a-98ed-4061-9d13-288914ef0c69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="fd40494a-98ed-4061-9d13-288914ef0c69" name="Changes" comment="Adição dos atributos, métodos e validações da classe Data">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Testes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Endereco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Loja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +52,46 @@
       <option name="presentableId" value="Default" />
       <updated>1681347185681</updated>
       <workItem from="1681347226840" duration="1090000" />
-      <workItem from="1681735306199" duration="1839000" />
+      <workItem from="1681735306199" duration="5908000" />
+      <workItem from="1682298707217" duration="628000" />
+      <workItem from="1682384005892" duration="591000" />
     </task>
+    <task id="LOCAL-00001" summary="Adição dos atributos e métodos da classe Loja">
+      <created>1681740948029</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681740948029</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adição dos atributos e métodos da classe Produto">
+      <created>1681741282905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681741282905</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajuste no médoto toString da classe Loja">
+      <created>1681741385378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681741385378</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adição dos atributos e métodos da classe Endereco">
+      <created>1681741838798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681741838798</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adição dos atributos, métodos e validações da classe Data">
+      <created>1681743947537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743947537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +119,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adição dos atributos e métodos da classe Loja" />
+    <MESSAGE value="Adição dos atributos e métodos da classe Produto" />
+    <MESSAGE value="Ajuste no médoto toString da classe Loja" />
+    <MESSAGE value="Adição dos atributos e métodos da classe Endereco" />
+    <MESSAGE value="Adição dos atributos, métodos e validações da classe Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição dos atributos, métodos e validações da classe Data" />
   </component>
 </project>
