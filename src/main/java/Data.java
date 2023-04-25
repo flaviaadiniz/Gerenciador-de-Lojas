@@ -7,26 +7,26 @@ public class Data {
     public Data(int dia, int mes, int ano) {
         if ((mes > 0 && mes <= 12) && (dia > 0 && dia <= 31)) {
 
-            if (mes == 2 && dia == 29) {
+            if (mes == 2 && dia < 29) {
+                this.dia = dia;
+                this.mes = mes;
+                this.ano = ano;
+            } else if (mes == 2 && dia == 29) {
                 if (ano % 4 == 0 && (ano % 400 == 0 || ano % 100 != 0)) {
                     this.dia = dia;
                     this.mes = mes;
                     this.ano = ano;
-                } else {
-                    System.out.println("Erro!");
-                    this.dia = 1;
-                    this.mes = 1;
-                    this.ano = 2020;
                 }
-            }
-
-            if ((dia == 31) && mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 ) {
+            } else if (mes == 2 && dia > 29) {
+                System.out.println("Erro!");
+                this.dia = 1;
+                this.mes = 1;
+                this.ano = 2020;
+            } else if ((dia == 31) && mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 ) {
                 this.dia = dia;
                 this.mes = mes;
                 this.ano = ano;
-            }
-
-            if (dia < 31) {
+            } else {
                 this.dia = dia;
                 this.mes = mes;
                 this.ano = ano;
@@ -38,7 +38,6 @@ public class Data {
             this.mes = 1;
             this.ano = 2020;
         }
-
     }
 
     public boolean verificaBissexto() {
