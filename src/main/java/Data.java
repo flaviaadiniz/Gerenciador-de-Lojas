@@ -26,6 +26,12 @@ public class Data {
                 this.ano = ano;
             }
 
+            if (dia < 31) {
+                this.dia = dia;
+                this.mes = mes;
+                this.ano = ano;
+            }
+
         } else {
             System.out.println("Erro!");
             this.dia = 1;
