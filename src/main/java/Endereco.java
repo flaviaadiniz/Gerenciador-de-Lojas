@@ -76,14 +76,13 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco [" +
-                "Rua: " + nomeDaRua +
-                " | Cidade: " + cidade +
-                " | Estado: " + estado +
-                " | País: " + pais +
-                " | CEP: " + cep +
-                " | Número: " + numero +
+        return "Endereço: Rua " + nomeDaRua +
+                ", " + numero +
                 " | Complemento: " + complemento +
-                ']';
+                " | Cidade: " + cidade +
+                " | CEP: " + cep +
+                " | Estado: " + estado +
+                " | País: " + pais;
+
     }
 }
