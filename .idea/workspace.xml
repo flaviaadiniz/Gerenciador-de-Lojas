@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd40494a-98ed-4061-9d13-288914ef0c69" name="Changes" comment="Adição dos atributos, métodos e validações da classe Data">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testes.java" afterDir="false" />
+    <list default="true" id="fd40494a-98ed-4061-9d13-288914ef0c69" name="Changes" comment="Adicionei classe Testes para testar a criação dos objetos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Loja.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <workItem from="1681347226840" duration="1090000" />
       <workItem from="1681735306199" duration="5908000" />
       <workItem from="1682298707217" duration="628000" />
-      <workItem from="1682384005892" duration="591000" />
+      <workItem from="1682384005892" duration="14844000" />
     </task>
     <task id="LOCAL-00001" summary="Adição dos atributos e métodos da classe Loja">
       <created>1681740948029</created>
@@ -91,7 +92,49 @@
       <option name="project" value="LOCAL" />
       <updated>1681743947537</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adição de parâmetros do tipo Endereco e Data na classe Loja">
+      <created>1682385515992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682385515992</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Correção de um bug no construtor">
+      <created>1682430230752</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682430230752</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajuste nos validadores de data no método construtor">
+      <created>1682458265149</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682458265149</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Alterei o método toString da classe Endereco">
+      <created>1682470927578</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682470927578</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Adicionei atributo dataValidade com getters e setters; criei método estaVencido.">
+      <created>1682471013920</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682471013920</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Adicionei classe Testes para testar a criação dos objetos">
+      <created>1682471043514</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682471043514</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +169,12 @@
     <MESSAGE value="Ajuste no médoto toString da classe Loja" />
     <MESSAGE value="Adição dos atributos e métodos da classe Endereco" />
     <MESSAGE value="Adição dos atributos, métodos e validações da classe Data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição dos atributos, métodos e validações da classe Data" />
+    <MESSAGE value="Adição de parâmetros do tipo Endereco e Data na classe Loja" />
+    <MESSAGE value="Correção de um bug no construtor" />
+    <MESSAGE value="Ajuste nos validadores de data no método construtor" />
+    <MESSAGE value="Alterei o método toString da classe Endereco" />
+    <MESSAGE value="Adicionei atributo dataValidade com getters e setters; criei método estaVencido." />
+    <MESSAGE value="Adicionei classe Testes para testar a criação dos objetos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionei classe Testes para testar a criação dos objetos" />
   </component>
 </project>

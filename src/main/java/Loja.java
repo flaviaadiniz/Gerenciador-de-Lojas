@@ -81,12 +81,11 @@ public class Loja {
 
     @Override
     public String toString() {
-        return "Loja [" +
-                "Nome: " + nome +
-                " | Quantidade de Funcionários: " + quantidadeFuncionarios +
-                " | Salário Base do Funcionario: " + salarioBaseFuncionario +
-                " | Endereço: " + endereco +
-                " | Data de Fundação: " + dataFundacao +
-                ']';
+        return "- Loja -" +
+                "\nNome: " + nome +
+                "\nQuantidade de Funcionários: " + quantidadeFuncionarios +
+                "\nSalário Base dos Funcionários: " + salarioBaseFuncionario +
+                "\n" + endereco +
+                "\nData de Fundação: " + dataFundacao;
     }
 }
