@@ -40,7 +40,7 @@ public class Data {
         }
     }
 
-    public boolean verificaBissexto() {
+    public boolean verificaAnoBissexto() {
         if (this.ano % 4 == 0 && (this.ano % 400 == 0 || this.ano % 100 != 0)) {
             return true;
         } else {
