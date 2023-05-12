@@ -6,6 +6,10 @@ public class Loja {
     private Endereco endereco;
     private Data dataFundacao;
 
+    public Loja() {
+
+    }
+
     public Loja(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco,
                 Data dataFundacao) {
         this.nome = nome;
