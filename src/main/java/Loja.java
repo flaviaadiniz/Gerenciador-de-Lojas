@@ -25,6 +25,14 @@ public class Loja {
         this.salarioBaseFuncionario = -1;
     }
 
+    public Loja(String nome, int quantidadeFuncionarios, Endereco endereco, Data dataFundacao) {
+        this.nome = nome;
+        this.quantidadeFuncionarios = quantidadeFuncionarios;
+        this.salarioBaseFuncionario = -1;
+        this.endereco = endereco;
+        this.dataFundacao = dataFundacao;
+    }
+
     public double gastosComSalario() {
         return this.quantidadeFuncionarios * this.salarioBaseFuncionario;
     }
