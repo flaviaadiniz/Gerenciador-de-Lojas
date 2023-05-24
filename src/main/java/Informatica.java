@@ -3,8 +3,8 @@ public class Informatica extends Loja {
     private double seguroEletronicos;
 
     public Informatica(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario,
-                       Endereco endereco, Data dataFundacao, double seguroEletronicos) {
-        super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao);
+                       Endereco endereco, Data dataFundacao, double seguroEletronicos, int quantidadeProdutos)  {
+        super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, quantidadeProdutos);
         this.seguroEletronicos = seguroEletronicos;
     }
 
