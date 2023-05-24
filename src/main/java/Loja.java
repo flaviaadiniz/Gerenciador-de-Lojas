@@ -7,7 +7,7 @@ public class Loja {
     private double salarioBaseFuncionario;
     private Endereco endereco;
     private Data dataFundacao;
-    private ArrayList<Produto> estoqueProdutos;
+    private Produto[] estoqueProdutos;
 
     public Loja() {
 
@@ -20,7 +20,7 @@ public class Loja {
         this.salarioBaseFuncionario = -1;
         this.endereco = endereco;
         this.dataFundacao = dataFundacao;
-        this.estoqueProdutos = new ArrayList<>(quantidadeProdutos);
+        this.estoqueProdutos = new Produto[quantidadeProdutos];
     }
 
     public Loja(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco,
@@ -30,7 +30,7 @@ public class Loja {
         this.salarioBaseFuncionario = salarioBaseFuncionario;
         this.endereco = endereco;
         this.dataFundacao = dataFundacao;
-        this.estoqueProdutos = new ArrayList<>(quantidadeProdutos);
+        this.estoqueProdutos = new Produto[quantidadeProdutos];
     }
 
     public Loja(String nome, int quantidadeFuncionarios) {
@@ -103,6 +103,14 @@ public class Loja {
 
     public void setDataFundacao(Data dataFundacao) {
         this.dataFundacao = dataFundacao;
+    }
+
+    public Produto[] getEstoqueProdutos() {
+        return estoqueProdutos;
+    }
+
+    public void setEstoqueProdutos(Produto[] estoqueProdutos) {
+        this.estoqueProdutos = estoqueProdutos;
     }
 
     @Override
