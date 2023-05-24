@@ -32,7 +32,7 @@ public class Principal {
                     System.out.print("Salário base dos funcionários: ");
                     double salarioBase = scanner.nextDouble();
                     scanner.nextLine();
-                    System.out.println("Quantidade de produtos: ");
+                    System.out.print("Quantidade de produtos: ");
                     int quantidadeProdutos = scanner.nextInt();
                     scanner.nextLine();
 

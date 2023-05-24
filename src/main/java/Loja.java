@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Loja {
 
@@ -120,6 +121,7 @@ public class Loja {
                 "\nQuantidade de Funcionários: " + quantidadeFuncionarios +
                 "\nSalário Base dos Funcionários: " + salarioBaseFuncionario +
                 "\n" + endereco +
-                "\nData de Fundação: " + dataFundacao;
+                "\nData de Fundação: " + dataFundacao +
+                "\nProdutos: " + Arrays.toString(estoqueProdutos);
     }
 }
