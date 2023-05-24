@@ -32,6 +32,9 @@ public class Principal {
                     System.out.print("Salário base dos funcionários: ");
                     double salarioBase = scanner.nextDouble();
                     scanner.nextLine();
+                    System.out.println("Quantidade de produtos: ");
+                    int quantidadeProdutos = scanner.nextInt();
+                    scanner.nextLine();
 
                     System.out.println("Vamos cadastrar o endereço da loja:");
                     System.out.print("Nome da rua: ");
@@ -59,7 +62,7 @@ public class Principal {
                     int anoLoja = scanner.nextInt();
                     Data dataLoja = new Data(diaLoja, mesLoja, anoLoja);
 
-                    loja = new Loja(nome, quantidadeFuncionarios, salarioBase, endereco, dataLoja);
+                    loja = new Loja(nome, quantidadeFuncionarios, salarioBase, endereco, dataLoja, quantidadeProdutos);
 
                     System.out.println("Loja criada com sucesso!\n");
                     break;
