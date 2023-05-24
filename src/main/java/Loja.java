@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Loja {
 
     private String nome;
@@ -5,18 +7,30 @@ public class Loja {
     private double salarioBaseFuncionario;
     private Endereco endereco;
     private Data dataFundacao;
+    private ArrayList<Produto> estoqueProdutos;
 
     public Loja() {
 
     }
 
+    public Loja(String nome, int quantidadeFuncionarios, Endereco endereco,
+                Data dataFundacao, int quantidadeProdutos) {
+        this.nome = nome;
+        this.quantidadeFuncionarios = quantidadeFuncionarios;
+        this.salarioBaseFuncionario = -1;
+        this.endereco = endereco;
+        this.dataFundacao = dataFundacao;
+        this.estoqueProdutos = new ArrayList<>(quantidadeProdutos);
+    }
+
     public Loja(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco,
-                Data dataFundacao) {
+                Data dataFundacao, int quantidadeProdutos) {
         this.nome = nome;
         this.quantidadeFuncionarios = quantidadeFuncionarios;
         this.salarioBaseFuncionario = salarioBaseFuncionario;
         this.endereco = endereco;
         this.dataFundacao = dataFundacao;
+        this.estoqueProdutos = new ArrayList<>(quantidadeProdutos);
     }
 
     public Loja(String nome, int quantidadeFuncionarios) {
