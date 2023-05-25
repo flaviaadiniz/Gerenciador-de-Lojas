@@ -86,7 +86,7 @@ public class Loja {
     public boolean removeProduto(String nomeProduto) {
         boolean result = false;
         for (int i = 0; i < estoqueProdutos.length; i++) {
-            if (estoqueProdutos[i].getNome() == nomeProduto) {
+            if (estoqueProdutos[i].getNome().equals(nomeProduto)) {
                 estoqueProdutos[i] = null;
                 result = true;
             } else {
