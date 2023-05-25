@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Loja {
@@ -64,6 +63,38 @@ public class Loja {
         }
 
         return tamanho;
+    }
+
+    public void imprimeProdutos() {
+        System.out.println(Arrays.toString(estoqueProdutos));
+    }
+
+    public boolean insereProduto(Produto produto){
+        boolean result = false;
+        for (int i = 0; i < estoqueProdutos.length; i++) {
+            if (estoqueProdutos[i] == null) {
+                estoqueProdutos[i] = produto;
+                result = true;
+                break;
+            } else {
+                result = false;
+            }
+        }
+        return result;
+    }
+
+    public boolean removeProduto(String nomeProduto) {
+        boolean result = false;
+        for (int i = 0; i < estoqueProdutos.length; i++) {
+            if (estoqueProdutos[i].getNome() == nomeProduto) {
+                estoqueProdutos[i] = null;
+                result = true;
+            } else {
+                System.out.println("Produto inexistente!");
+                result = false;
+            }
+        }
+        return result;
     }
 
     public String getNome() {
