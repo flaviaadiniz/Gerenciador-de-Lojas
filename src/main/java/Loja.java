@@ -85,12 +85,13 @@ public class Loja {
 
     public boolean removeProduto(String nomeProduto) {
         boolean result = false;
+
         for (int i = 0; i < estoqueProdutos.length; i++) {
-            if (estoqueProdutos[i].getNome().equals(nomeProduto)) {
+            if (estoqueProdutos[i] != null && estoqueProdutos[i].getNome().equals(nomeProduto)) {
                 estoqueProdutos[i] = null;
                 result = true;
+                break;
             } else {
-                System.out.println("Produto inexistente!");
                 result = false;
             }
         }
