@@ -2,6 +2,10 @@ public class Cosmetico extends Loja {
 
     private double taxaComercializacao;
 
+    public Cosmetico() {
+
+    }
+
     public Cosmetico(String nome, int quantidadeFuncionarios, double salarioBaseFuncionario, Endereco endereco,
                      Data dataFundacao, double taxaComercializacao, int quantidadeProdutos) {
         super(nome, quantidadeFuncionarios, salarioBaseFuncionario, endereco, dataFundacao, quantidadeProdutos);
